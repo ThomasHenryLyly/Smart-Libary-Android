@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingPersonActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/changepassword"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rltLayOut5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rlt06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_design">
+            <ImageView
+                android:id="@+id/btnVisiablePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_visibility_black_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/edtNhapMatKhauSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:inputType="textPassword"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:drawableLeft="@drawable/ic_lock"
+                android:hint="@string/new_password"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_design"
+            android:layout_below="@+id/rlt06">
+            <ImageView
+                android:id="@+id/btnVisiableRePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_visibility_black_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+            <EditText
+                android:id="@+id/edtNhapLaiMatKhauSetting"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/ic_lock"
+                android:inputType="textPassword"
+                android:hint="@string/retype_new_password"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnConfirmChangePass"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttons"
+        android:layout_below="@+id/rltLayOut5"
+        android:text="@string/confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="#FFFF"/>
+
+</RelativeLayout>

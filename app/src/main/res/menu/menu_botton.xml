@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeId"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+
+    <item
+        android:id="@+id/cartId"
+        android:title="Cart"
+        android:icon="@drawable/nav_cart"
+        />
+
+    <item
+        android:id="@+id/notificationId"
+        android:title="Notification"
+        app:showAsAction="always"
+        android:actionLayout="@layout/notification_badge"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        />
+
+    <item
+        android:id="@+id/myBookId"
+        android:title="My Book"
+        android:icon="@drawable/ic_borrow"
+        />
+
+    <item
+        android:id="@+id/personId"
+        android:title="Account"
+        android:icon="@drawable/ic_account"
+        />
+</menu>

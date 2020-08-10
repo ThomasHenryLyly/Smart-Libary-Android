@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thư viện thông minh</string>
+    <string name="joinnow">Đăng Nhập</string>
+    <string name="registerwithstudentsemail">Đăng ký email bằng sinh viên</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="rememberme">Nhớ tôi</string>
+    <string name="forgetpassword">Quên mật khẩu</string>
+    <string name="popularproduct">Sách phổ biến</string>
+    <string name="browsercategory">Thư mục</string>
+    <string name="mechanical">Cơ Khí</string>
+    <string name="mechatronics">Cơ Điện Tử</string>
+    <string name="garment">May</string>
+    <string name="economy">Kinh Tế</string>
+    <string name="accountant">Kế Toán</string>
+    <string name="commerce">Thương Mại</string>
+    <string name="book">Đặt Sách</string>
+    <string name="confirm">Xác Nhận</string>
+    <string name="date">Ngày đặt</string>
+    <string name="author">Tác Giả</string>
+    <string name="expire">Hạn trả</string>
+    <string name="borrowed">Mượn</string>
+    <string name="setting">Cài Đặt</string>
+    <string name="logout">Đăng Xuất</string>
+    <string name="specializedbook">Sách Chuyên Ngành</string>
+    <string name="home">Trang Chủ</string>
+    <string name="cart">Giỏ</string>
+    <string name="mybook">Sách của tôi</string>
+    <string name="account">Tài Khoản</string>
+    <string name="number">Số Lượng</string>
+    <string name="map">Bản Đồ</string>
+    <string name="reserve">Lưu trử</string>
+    <string name="register">Đăng Ký</string>
+    <string name="waitting">Chờ chút...</string>
+    <string name="choose">Đã chọn</string>
+    <string name="fail">Thất bại</string>
+    <string name="bookchoosechooseotherplease">Vui lòng chọn sách khác</string>
+    <string name="successful">Thành Công</string>
+    <string name="wrongpassword">Sai mật khẩu</string>
+    <string name="importemail">Nhập Email</string>
+    <string name="importpass">Nhập mật khẩu</string>
+    <string name="unregisteredaccount">Tài khoản chưa đăng ký</string>
+    <string name="pleaseregister">Vui lòng đăng ký</string>
+    <string name="importname">Nhập tên</string>
+    <string name="importmajor">Nhập ngành học</string>
+    <string name="passworddidnotmatch">Mật khẩu chưa khớp</string>
+    <string name="creatingaccount">Tạo tài khoản</string>
+    <string name="alreadyexist">đã tồn tại</string>
+    <string name="registeragain">đăng ký lại</string>
+    <string name="firstyear">Năm Nhất</string>
+    <string name="secondyear">Năm Hai</string>
+    <string name="thirdyear">Năm Ba</string>
+    <string name="fourthyear">Năm Tư</string>
+    <string name="bookedpleasecomingtolib">Bạn đã đặt sách trước đó, vui lòng đến thư viện để nhận và đặt tiếp</string>
+
+    <string name="changepassword">Thay đổi mật khẩu</string>
+    <string name="new_password">mật khẩu mới</string>
+    <string name="retype_new_password">nhập lại mật khẩu</string>
+
+
+</resources>

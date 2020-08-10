@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521258839913",
+    "firebase_url": "https://teoshop-7e4a7.firebaseio.com",
+    "project_id": "teoshop-7e4a7",
+    "storage_bucket": "teoshop-7e4a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521258839913:android:d2931fb095f3b17ae557f8",
+        "android_client_info": {
+          "package_name": "teo.android.teoshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521258839913-5vb8d1qkm8ajhtkicrkpfmspkh1srkbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teo.android.teoshop",
+            "certificate_hash": "d8086552ebf05c0480c78096df79d79c4fa89a4a"
+          }
+        },
+        {
+          "client_id": "521258839913-c71d7sqm94km40cdvsm1vol8tet3is1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJPNtuPEmiQms3iVvyNuQuSPVT7Ra7nIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521258839913-c71d7sqm94km40cdvsm1vol8tet3is1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

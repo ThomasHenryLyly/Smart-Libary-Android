@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartFragment">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/llayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtChuDatSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFF"
+                />
+
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rvCartList"
+            android:layout_above="@+id/btnDatSach"
+            android:layout_below="@+id/llayout"/>
+        <Button
+            android:id="@+id/btnDatSach"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/confirm"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:background="#F10B0B"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
